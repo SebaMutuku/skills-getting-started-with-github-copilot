@@ -1,14 +1,37 @@
-# Getting Started with GitHub Copilot
+# Mergington High School Extracurricular Activities API
 
-<img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
+This project provides a FastAPI-based web API for managing extracurricular activities at Mergington High School. Students can view available activities and sign up using their email addresses.
 
-Hey SebaMutuku!
+## Key Features
 
-Mona here. I'm done preparing your exercise. Hope you enjoy! 💚
+- FastAPI endpoints for listing activities and handling sign-ups
+- In-memory storage of activities and participants
+- Static file serving for the frontend
+- Basic error handling for invalid activity requests
+- Expanded selection of activities, including:
+  - **Sports:** Basketball Team, Gym Class, Soccer Club, Swimming Team, plus more
+  - **Artistic:** Drama Club, Art Workshop, plus more
+  - **Intellectual:** Chess Club, Programming Class, Debate Team, Math Club, plus more
 
-Remember, it's self-paced so feel free to take a break! ☕️
+This implementation provides a simple foundation for further development and integration with persistent storage or authentication systems.
 
-[![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/SebaMutuku/skills-getting-started-with-github-copilot/issues/1)
+## Getting Started
 
----
+1. Install dependencies:
+   ```
+   pip install fastapi uvicorn
+   ```
+2. Run the application:
+   ```
+   uvicorn src.app:app --reload
+   ```
+3. Access the API and static frontend at [http://localhost:8000](http://localhost:8000).
 
+## Endpoints
+
+- `GET /activities` — List all available activities
+- `POST /activities/{activity_name}/signup?email=your_email` — Sign up for an activity
+
+## Customization
+
+You can easily add or modify activities in the `src/app.py` file under the `activities` dictionary.
