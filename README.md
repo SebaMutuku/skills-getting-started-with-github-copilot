@@ -9,7 +9,7 @@ This project provides a FastAPI-based web API for managing extracurricular activ
 - Static file serving for the frontend
 - Basic error handling for invalid activity requests
 - Expanded selection of activities, including:
-  - **Sports:** Basketball Team, Gym Class, Soccer Club, Swimming Team, plus more
+  - **Sports:** Basketball Team, Soccer Club, Swimming Team, plus more
   - **Artistic:** Drama Club, Art Workshop, plus more
   - **Intellectual:** Chess Club, Programming Class, Debate Team, Math Club, plus more
 
