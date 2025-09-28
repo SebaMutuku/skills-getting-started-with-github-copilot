@@ -1,37 +1,37 @@
-# Mergington High School Extracurricular Activities API
+<div align="center">
 
-This project provides a FastAPI-based web API for managing extracurricular activities at Mergington High School. Students can view available activities and sign up using their email addresses.
+# 🎉 Congratulations SebaMutuku! 🎉
 
-## Key Features
+<img src="https://octodex.github.com/images/welcometocat.png" height="200px" />
 
-- FastAPI endpoints for listing activities and handling sign-ups
-- In-memory storage of activities and participants
-- Static file serving for the frontend
-- Basic error handling for invalid activity requests
-- Expanded selection of activities, including:
-  - **Sports:** Basketball Team, Soccer Club, Swimming Team, plus more
-  - **Artistic:** Drama Club, Art Workshop, plus more
-  - **Intellectual:** Chess Club, Programming Class, Debate Team, Math Club, plus more
+### 🌟 You've successfully completed the exercise! 🌟
 
-This implementation provides a simple foundation for further development and integration with persistent storage or authentication systems.
+## 🚀 Share Your Success!
 
-## Getting Started
+**Show off your new skills and inspire others!**
 
-1. Install dependencies:
-   ```
-   pip install fastapi uvicorn
-   ```
-2. Run the application:
-   ```
-   uvicorn src.app:app --reload
-   ```
-3. Access the API and static frontend at [http://localhost:8000](http://localhost:8000).
+<a href="https://twitter.com/intent/tweet?text=I%20just%20completed%20the%20%22Getting%20Started%20with%20GitHub%20Copilot%22%20GitHub%20Skills%20hands-on%20exercise!%20%F0%9F%8E%89%0A%0Ahttps%3A%2F%2Fgithub.com%2FSebaMutuku%2Fskills-getting-started-with-github-copilot%0A%0A%23GitHubSkills%20%23OpenSource%20%23GitHubLearn" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Share%20on%20X-1da1f2?style=for-the-badge&logo=x&logoColor=white" alt="Share on X" />
+</a>
+<a href="https://bsky.app/intent/compose?text=I%20just%20completed%20the%20%22Getting%20Started%20with%20GitHub%20Copilot%22%20GitHub%20Skills%20hands-on%20exercise!%20%F0%9F%8E%89%0A%0Ahttps%3A%2F%2Fgithub.com%2FSebaMutuku%2Fskills-getting-started-with-github-copilot%0A%0A%23GitHubSkills%20%23OpenSource%20%23GitHubLearn" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Share%20on%20Bluesky-0085ff?style=for-the-badge&logo=bluesky&logoColor=white" alt="Share on Bluesky" />
+</a>
+<a href="https://www.linkedin.com/feed/?shareActive=true&text=I%20just%20completed%20the%20%22Getting%20Started%20with%20GitHub%20Copilot%22%20GitHub%20Skills%20hands-on%20exercise!%20%F0%9F%8E%89%0A%0Ahttps%3A%2F%2Fgithub.com%2FSebaMutuku%2Fskills-getting-started-with-github-copilot%0A%0A%23GitHubSkills%20%23OpenSource%20%23GitHubLearn" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Share%20on%20LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Share on LinkedIn" />
+</a>
 
-## Endpoints
+### 🎯 What's Next?
 
-- `GET /activities` — List all available activities
-- `POST /activities/{activity_name}/signup?email=your_email` — Sign up for an activity
+**Keep the momentum going!**
 
-## Customization
+[![](https://img.shields.io/badge/Return%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/SebaMutuku/skills-getting-started-with-github-copilot/issues/1)
+[![GitHub Skills](https://img.shields.io/badge/Explore%20GitHub%20Skills-000000?style=for-the-badge&logo=github&logoColor=white)](https://learn.github.com/skills))
 
-You can easily add or modify activities in the `src/app.py` file under the `activities` dictionary.
+*There's no better way to learn than building things!* 🚀
+
+</div>
+
+---
+
+&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+
